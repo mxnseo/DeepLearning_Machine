@@ -6,12 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1510</width>
-    <height>906</height>
+    <width>1684</width>
+    <height>903</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>TabWidget</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
   </property>
   <property name="currentIndex">
    <number>0</number>
@@ -31,10 +34,10 @@
     </property>
     <property name="font">
      <font>
-      <family>Impact</family>
+      <family>Yu Gothic UI Semibold</family>
       <pointsize>16</pointsize>
-      <weight>50</weight>
-      <bold>false</bold>
+      <weight>75</weight>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
@@ -163,7 +166,8 @@
     </property>
     <property name="font">
      <font>
-      <family>새굴림</family>
+      <family>Yu Gothic UI Semibold</family>
+      <pointsize>10</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -355,7 +359,8 @@
     </property>
     <property name="font">
      <font>
-      <family>새굴림</family>
+      <family>Yu Gothic UI Semibold</family>
+      <pointsize>10</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -395,7 +400,7 @@
     </property>
     <property name="font">
      <font>
-      <family>Arial Black</family>
+      <family>Yu Gothic UI Semibold</family>
       <pointsize>10</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -428,7 +433,8 @@
     </property>
     <property name="font">
      <font>
-      <family>새굴림</family>
+      <family>Yu Gothic UI Semibold</family>
+      <pointsize>10</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -460,7 +466,8 @@
     </property>
     <property name="font">
      <font>
-      <family>새굴림</family>
+      <family>Yu Gothic UI Semibold</family>
+      <pointsize>10</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -507,7 +514,8 @@
     </property>
     <property name="font">
      <font>
-      <family>새굴림</family>
+      <family>Yu Gothic UI Semibold</family>
+      <pointsize>10</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -550,7 +558,8 @@
     </property>
     <property name="font">
      <font>
-      <family>새굴림</family>
+      <family>Yu Gothic UI Semibold</family>
+      <pointsize>10</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -575,10 +584,10 @@
     </property>
     <property name="font">
      <font>
-      <family>Impact</family>
+      <family>Yu Gothic UI Semibold</family>
       <pointsize>16</pointsize>
-      <weight>50</weight>
-      <bold>false</bold>
+      <weight>75</weight>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
@@ -599,7 +608,8 @@
     </property>
     <property name="font">
      <font>
-      <family>새굴림</family>
+      <family>Yu Gothic UI Semibold</family>
+      <pointsize>10</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -821,6 +831,14 @@
       <height>781</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Yu Gothic UI Semibold</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">border: 1px solid rgb(218, 218, 218); border-radius:5%;</string>
     </property>
@@ -834,38 +852,38 @@
     <property name="geometry">
      <rect>
       <x>1150</x>
-      <y>10</y>
+      <y>0</y>
       <width>321</width>
       <height>81</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Impact</family>
+      <family>Yu Gothic UI Semibold</family>
       <pointsize>16</pointsize>
-      <weight>50</weight>
-      <bold>false</bold>
+      <weight>75</weight>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-radius:7px; background-color:qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 rgba(192, 192, 192, 255), stop:0.301136 rgba(233, 233, 233, 255), stop:1 rgba(255, 255, 255, 255))</string>
+     <string notr="true"/>
     </property>
     <property name="text">
-     <string>Training</string>
+     <string>Test</string>
     </property>
    </widget>
    <widget class="QLabel" name="file_dirShow2">
     <property name="geometry">
      <rect>
-      <x>260</x>
+      <x>330</x>
       <y>10</y>
-      <width>581</width>
-      <height>91</height>
+      <width>811</width>
+      <height>61</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Arial Black</family>
+      <family>Yu Gothic UI Semibold</family>
       <pointsize>10</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -875,7 +893,7 @@
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-radius:7px; background-color:qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 rgba(192, 192, 192, 255), stop:0.301136 rgba(233, 233, 233, 255), stop:1 rgba(255, 255, 255, 255))</string>
+     <string notr="true">border: 1px solid rgb(218, 218, 218); border-radius:5%;</string>
     </property>
     <property name="text">
      <string/>
@@ -890,9 +908,9 @@
    <widget class="QToolButton" name="model_directory">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>10</y>
-      <width>231</width>
+      <x>0</x>
+      <y>0</y>
+      <width>321</width>
       <height>41</height>
      </rect>
     </property>
@@ -1151,16 +1169,16 @@
     </property>
     <property name="font">
      <font>
-      <family>Impact</family>
+      <family>Yu Gothic UI Semibold</family>
       <pointsize>16</pointsize>
-      <weight>50</weight>
+      <weight>75</weight>
       <italic>false</italic>
-      <bold>false</bold>
+      <bold>true</bold>
       <underline>false</underline>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-radius:7px; background-color:qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 rgba(192, 192, 192, 255), stop:0.301136 rgba(233, 233, 233, 255), stop:1 rgba(255, 255, 255, 255))</string>
+     <string notr="true"/>
     </property>
     <property name="text">
      <string>Model Directory</string>
@@ -1172,9 +1190,9 @@
    <widget class="QToolButton" name="test_directory">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>60</y>
-      <width>231</width>
+      <x>0</x>
+      <y>40</y>
+      <width>321</width>
       <height>41</height>
      </rect>
     </property>
@@ -1433,16 +1451,16 @@
     </property>
     <property name="font">
      <font>
-      <family>Impact</family>
+      <family>Yu Gothic UI Semibold</family>
       <pointsize>16</pointsize>
-      <weight>50</weight>
+      <weight>75</weight>
       <italic>false</italic>
-      <bold>false</bold>
+      <bold>true</bold>
       <underline>false</underline>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-radius:7px; background-color:qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 rgba(192, 192, 192, 255), stop:0.301136 rgba(233, 233, 233, 255), stop:1 rgba(255, 255, 255, 255))</string>
+     <string notr="true"/>
     </property>
     <property name="text">
      <string>Test File</string>
@@ -1454,70 +1472,64 @@
    <widget class="QWidget" name="train_image" native="true">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>120</y>
-      <width>1111</width>
+      <x>0</x>
+      <y>90</y>
+      <width>1141</width>
       <height>731</height>
      </rect>
     </property>
-    <property name="styleSheet">
-     <string notr="true">border-radius:7px; background-color:white;</string>
+    <property name="font">
+     <font>
+      <family>Yu Gothic UI Semibold</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
     </property>
-    <widget class="QLabel" name="result_label">
-     <property name="geometry">
-      <rect>
-       <x>0</x>
-       <y>630</y>
-       <width>1111</width>
-       <height>101</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <family>Impact</family>
-       <pointsize>12</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignCenter</set>
-     </property>
-    </widget>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid rgb(218, 218, 218); border-radius:5%;</string>
+    </property>
    </widget>
    <widget class="QTextEdit" name="segmentation_shell_2">
     <property name="geometry">
      <rect>
       <x>1150</x>
-      <y>110</y>
-      <width>341</width>
-      <height>741</height>
+      <y>90</y>
+      <width>321</width>
+      <height>731</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Yu Gothic UI Semibold</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">border-radius:7px; background-color:white</string>
+     <string notr="true">border: 1px solid rgb(218, 218, 218); border-radius:5%;</string>
     </property>
    </widget>
    <widget class="QToolButton" name="prev_img">
     <property name="geometry">
      <rect>
-      <x>870</x>
-      <y>10</y>
+      <x>0</x>
+      <y>830</y>
       <width>221</width>
       <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Impact</family>
+      <family>Yu Gothic UI Semibold</family>
       <pointsize>16</pointsize>
-      <weight>50</weight>
-      <bold>false</bold>
+      <weight>75</weight>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-radius:7px; background-color:qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 rgba(192, 192, 192, 255), stop:0.301136 rgba(233, 233, 233, 255), stop:1 rgba(255, 255, 255, 255))</string>
+     <string notr="true"/>
     </property>
     <property name="text">
      <string>Prev Image</string>
@@ -1526,22 +1538,22 @@
    <widget class="QToolButton" name="next_img">
     <property name="geometry">
      <rect>
-      <x>870</x>
-      <y>60</y>
+      <x>920</x>
+      <y>830</y>
       <width>221</width>
       <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Impact</family>
+      <family>Yu Gothic UI Semibold</family>
       <pointsize>16</pointsize>
-      <weight>50</weight>
-      <bold>false</bold>
+      <weight>75</weight>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-radius:7px; background-color:qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 rgba(192, 192, 192, 255), stop:0.301136 rgba(233, 233, 233, 255), stop:1 rgba(255, 255, 255, 255))</string>
+     <string notr="true"/>
     </property>
     <property name="text">
      <string>Next Image</string>

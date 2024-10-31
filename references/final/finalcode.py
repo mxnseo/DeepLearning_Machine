@@ -66,7 +66,7 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     
     window = MainWindow()
-    window.setWindowTitle("QTabWidget Example")
+    window.setWindowTitle("DeepLearning Machine")
     window.show()
     
     sys.exit(app.exec_())
